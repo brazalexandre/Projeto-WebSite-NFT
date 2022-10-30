@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@300;400 & family= Oswald & family= Poppins:wght@400;500;700 & family= Torneio & display=trocar');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato','Tourney', sans-serif;
+    
+ }
+
+
+head {
+    font-size: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.logo {
+    
+    font-family: 'Tourney', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.link-menu {
+    display: flex;
+    letter-spacing: 0.5px;
+    gap: 50px;
+    padding: 40px;
+    cursor: pointer;
+}
+
+.principal {
+    margin-bottom: 50px;
+}
+
+.conteudo-principal {
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-textos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.texto {
+
+    
+    margin-left: 30px;
+    text-align: left;
+    line-height: 60px;
+    text-orientation: upright;
+    font-family: 'Tourney', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    letter-spacing: 2px;
+    color: #3C1272;
+}
+
+.paragrafo {
+
+    margin-left: 30px;;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.conteudo-textos {
+    margin-bottom: 10%;
+    letter-spacing: 2px;
+}
+
+.link-menu {
+    font-size: 17px;
+    font-weight: 250;
+    font-family: 'lato', sans-serif;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.link-menu:hover {
+    -webkit-transform: scale(0.8);
+    transform: scale(1.5);
+}
+
+
+.link-button-1 {
+    background-color: #ceabf8;
+    width: 90px;
+    color: grey;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.link-button-1:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(0.8);
+    transform: scale(1.5);
+    background-color: #fff;
+    color: black;  
+}
+
+
+.link-button-2 {
+    background-color: #ceabf8;
+    color: grey;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.link-button-2:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(0.8);
+    transform: scale(1.5);
+    background-color: #fff;
+    color: black;  
+
+
+}
+
+.link-button-3 {
+    background-color: #ceabf8;
+    color: grey;
+    border: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.6px;
+    font-size: 17px;
+    font-weight: 400;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.link-button-3:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(0.8);
+    transform: scale(1.5);
+    background-color: #fff;
+    color: black;  
+
+
+
+}
+
+.slogan {
+    
+    margin-left: 30px;
+}
+
+.link-presale {
+    transition: all 0.5s;
+    margin-left: 30px;
+    color: grey;
+    background-color: #ceabf8;
+    border-radius: 20px;
+    width: 140px;
+    height: 30px;
+    border: none;
+    font-family: 'Tourney', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+
+}
+
+.link-presale:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(0.8);
+    transform: scale(1.5);
+    background-color: #fff;
+    color: black;  
+}
+
+.imagem {
+    height: 100%;
+    margin-top: 2px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.cronometro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.countdown {
+    display: flex;
+
+}
+
+.count-wrapper {
+
+    width: 120px;
+    height: 120px;
+    background: #ceabf8;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+    float: left;
+    margin: 0.6rem;
+
+}
+
+.count-wrapper div{
+
+    font-weight: 500;
+    font-size: 4rem;
+    color: #fff;
+    
+
+}
+
+.count-wrapper span{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: .2rem 0;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+}   
+
+.alert {
+    animation: alert 1s linear infinite alternate;
+
+}
+
+@keyframes alert{
+    0%{
+        background-color: #fff; }
+    100% {
+        background-color: all;
+    }   
+
+}
